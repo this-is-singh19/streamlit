@@ -2,6 +2,15 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 
+
+#from streamlit.theme import ThemeBuilder
+#
+#bg color
+#custom_theme = ThemeBuilder.light_bg_color('#F5F5F5').dark_bg_color('#1F1B24').build()
+#
+#st.set_page_config(page_title="My Webpage",page_icon=":tada:",layout="wide",theme=custom_theme)
+
+
 st.set_page_config(page_title="My Webpage",page_icon=":tada:",layout="wide")
 #header section
 with st.container():
